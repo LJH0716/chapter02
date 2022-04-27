@@ -1,6 +1,6 @@
 package com.javaex.ex14;
 
-public class Ractangle {
+public class Rectangle {
 	//필드 
 	private String fillColor;
 	private String lineColor;
@@ -9,11 +9,11 @@ public class Ractangle {
 	
 	
 	//생성자
-	public Ractangle() {
+	public Rectangle() {
 	
 	}
 
-	public Ractangle(String fillColor, String lineColor, int width, int height) {
+	public Rectangle(String fillColor, String lineColor, int width, int height) {
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 		this.width = width;
@@ -58,7 +58,7 @@ public class Ractangle {
 	//메서드 일반
 	@Override
 	public String toString() {
-		return "Ractangle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", width=" + width + ", height="
+		return "Rectangle [fillColor=" + fillColor + ", lineColor=" + lineColor + ", width=" + width + ", height="
 				+ height + "]";
 	}
 	

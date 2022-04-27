@@ -3,11 +3,11 @@ package com.javaex.ex14;
 public class FigureApp {
 
 	public static void main(String[] args) {
-		Ractangle[] ractangle = new Ractangle[2];
-		ractangle[0] = new Ractangle("빨강", "검정", 4, 4);
-		ractangle[1] = new Ractangle("주황", "검정", 5, 5);
+		Rectangle[] rectangle = new Rectangle[2];
+		rectangle[0] = new Rectangle("빨강", "검정", 4, 4);
+		rectangle[1] = new Rectangle("주황", "검정", 5, 5);
 		for (int i = 0; i < 2; i++) {
-			ractangle[i].draw();
+			rectangle[i].draw();
 		}
 
 		Triangle[] triangle = new Triangle[2];
